@@ -1,0 +1,2 @@
+nasm -f elf64 hello_64.asm
+sudo ld -o hello hello_64.o
